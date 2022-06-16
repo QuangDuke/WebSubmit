@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+    <title>Theatre Seat Booking</title>
+  </head>
+  <body>
+        <div class="header">
+            <h1>Theatre Booking Website</h1>
+        </div>
+
+        <h3>1. DATE SEARCH:  <input type="text" class="input" id="dateInput" onkeyup="dateFunction()" placeholder="Search for the DATE of your desired seat(s) here... "></h3>
+        <h3>2. TIME SEARCH:  <input type="text" class="input" id="timeInput" onkeyup="timeFunction()" placeholder="Search for the TIME of your desired seat(s) here... "></h3>
+        <h3>3. SECTION SEARCH:  <input type="text" class="input" id="sectionInput" onkeyup="sectionFunction()" placeholder="Search for the SECTION of your desired seat(s) here... "></h3>
+
+        <table id="table">
+            <tr id="headings">    
+                <th>Seat ID</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Seat Section</th>
+                <th>Show</th>
+            </tr>
+            <tr>    
+                <td>1</td>
+                <td>June 12th</td>
+                <td>7 PM</td>
+                <td>A</td>
+                <td>Snow White</td>
+            </tr>
+            <tr>    
+                <td>2</td>
+                <td>June 19th</td>
+                <td>7 PM</td>
+                <td>A</td>
+                <td>The Witcher</td>
+            </tr>
+            <tr>    
+                <td>3</td>
+                <td>May 13th</td>
+                <td>8 PM</td>
+                <td>B</td>
+                <td>Games of Throne</td>
+            </tr>
+            <tr>    
+                <td>4</td>
+                <td>June 13th</td>
+                <td>8 PM</td>
+                <td>C</td>
+                <td>The Dark Knight</td>
+            </tr>
+            <tr>    
+                <td>5</td>
+                <td>June 11th</td>
+                <td>6 PM</td>
+                <td>C</td>
+                <td>Opera Legends</td>
+            </tr>
+            <tr>    
+                <td>6</td>
+                <td>July 12th</td>
+                <td>5 PM</td>
+                <td>C</td>
+                <td>St. Furious Highschool Band Night</td>
+            </tr>
+            <tr>    
+                <td>7</td>
+                <td>July 12th</td>
+                <td>12 PM</td>
+                <td>D</td>
+                <td>Musics</td>
+            </tr>
+            <tr>    
+                <td>8</td>
+                <td>April 1st</td>
+                <td>3 PM</td>
+                <td>E</td>
+                <td>Cheese Burgers</td>
+            </tr>
+            <tr>    
+                <td>9</td>
+                <td>April 22nd</td>
+                <td>3 PM</td>
+                <td>E</td>
+                <td>Bedtime Story</td>
+            </tr>
+            <tr>    
+                <td>10</td>
+                <td>May 20th</td>
+                <td>4 PM</td>
+                <td>F</td>
+                <td>Creepypasta</td>
+            </tr>
+        </table>
+   </body>
+</html>
